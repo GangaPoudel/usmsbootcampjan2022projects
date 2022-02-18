@@ -1,6 +1,5 @@
-package com.usbootcamp.paymentapi.models;
+package com.usbootcamp.stockapi.models;
 
-import java.time.LocalDate;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -14,6 +13,5 @@ public class Order {
 	private long orderId;
 	private String orderDate;
 	private long orderAmount;
-	private long productId;
-
+    private long productId;
 }
